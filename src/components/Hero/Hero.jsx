@@ -5,8 +5,8 @@ import linkedinIconLight from '../../assets/linkedin-light.svg';
 import linkedinIconDark from '../../assets/linkedin-dark.svg';
 import githubIconLight from '../../assets/github-light.svg';
 import githubIconDark from '../../assets/github-dark.svg';
-import instagramIconLight from '../../assets/instagram-light.svg';
-import instagramIconDark from '../../assets/instagram-dark.svg';
+// import instagramIconLight from '../../assets/instagram-light.svg';
+// import instagramIconDark from '../../assets/instagram-dark.svg';
 import mailIconLight from '../../assets/mail-light.svg';
 import mailIconDark from '../../assets/mail-dark.svg';
 import CV from '../../assets/jimmy_phan_resume.pdf';
@@ -17,7 +17,7 @@ const Hero = () => {
 
   const themeIcon = theme === 'light' ? sun : moon;
   const githubIcon = theme === 'light' ? githubIconLight: githubIconDark ;
-  const instagramIcon = theme === 'light' ? instagramIconLight: instagramIconDark;
+  // const instagramIcon = theme === 'light' ? instagramIconLight: instagramIconDark;
   const linkedinIcon = theme === 'light' ? linkedinIconLight: linkedinIconDark;
   const mailIcon = theme === 'light' ? mailIconLight : mailIconDark;
 
@@ -42,9 +42,9 @@ const Hero = () => {
             <a href="https://www.github.com/jmyphn" target="_blank">
               <img src={githubIcon} alt="LinkedIn Icon"/>
             </a>
-            <a href="https://www.instagram.com/jmyphn" target="_blank">
+            {/* <a href="https://www.instagram.com/[instagram here]" target="_blank">
               <img src={instagramIcon} alt="LinkedIn Icon"/>
-            </a>
+            </a> */}
             <a href="mailto:jp2369@cornell.edu">
               <img src={mailIcon} alt="Mail Icon"/>
             </a>
@@ -58,8 +58,10 @@ const Hero = () => {
             cloud computing, algorithms, and parallel computing. 
             <br />
             <br />
-            outside of the classroom, i&apos;m a lifter, f1 enthusiast,
-             and nba fan (go celtics!)
+            {/* <div className="animated-text">
+              outside of the classroom, i&apos;m a <span> lifter</span>
+            </div> */}
+              
           </p>
           <a href={CV} target="_blank">
             <button className="hover resume">
