@@ -54,7 +54,7 @@ const Hero = () => {
             love with computer systems and algorithms.
             <br />
             <br />
-            my current interests lie fullstack development, distributed systems, 
+            my current interests lie in fullstack development, distributed systems, 
             cloud computing, algorithms, and parallel computing. 
             <br />
             <br />
